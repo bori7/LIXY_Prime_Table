@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LIXY_Prime_Table/static/css/main.d7ffa779.chunk.css",
-    "main.js": "/LIXY_Prime_Table/static/js/main.d2d189f7.chunk.js",
-    "main.js.map": "/LIXY_Prime_Table/static/js/main.d2d189f7.chunk.js.map",
+    "main.js": "/LIXY_Prime_Table/static/js/main.09ebcd44.chunk.js",
+    "main.js.map": "/LIXY_Prime_Table/static/js/main.09ebcd44.chunk.js.map",
     "runtime-main.js": "/LIXY_Prime_Table/static/js/runtime-main.96de0c46.js",
     "runtime-main.js.map": "/LIXY_Prime_Table/static/js/runtime-main.96de0c46.js.map",
     "static/css/2.71b65c2d.chunk.css": "/LIXY_Prime_Table/static/css/2.71b65c2d.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.71b65c2d.chunk.css",
     "static/js/2.909ff986.chunk.js",
     "static/css/main.d7ffa779.chunk.css",
-    "static/js/main.d2d189f7.chunk.js"
+    "static/js/main.09ebcd44.chunk.js"
   ]
 }
