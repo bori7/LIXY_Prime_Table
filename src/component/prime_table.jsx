@@ -114,9 +114,9 @@ return (
                 data={dap}
                 columns={col}
 
-                defaultPageSize={100}
+                defaultPageSize={10}
                 style={{
-                  height: "700px" // This will force the table body to overflow and scroll, since there is not enough room
+                  height: "500px" // This will force the table body to overflow and scroll, since there is not enough room
                 }}
                 className="-striped -highlight"
             />
