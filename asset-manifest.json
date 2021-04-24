@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/LIXY_Prime_Table/static/css/main.d7ffa779.chunk.css",
-    "main.js": "/LIXY_Prime_Table/static/js/main.09ebcd44.chunk.js",
-    "main.js.map": "/LIXY_Prime_Table/static/js/main.09ebcd44.chunk.js.map",
-    "runtime-main.js": "/LIXY_Prime_Table/static/js/runtime-main.96de0c46.js",
-    "runtime-main.js.map": "/LIXY_Prime_Table/static/js/runtime-main.96de0c46.js.map",
-    "static/css/2.71b65c2d.chunk.css": "/LIXY_Prime_Table/static/css/2.71b65c2d.chunk.css",
-    "static/js/2.909ff986.chunk.js": "/LIXY_Prime_Table/static/js/2.909ff986.chunk.js",
-    "static/js/2.909ff986.chunk.js.map": "/LIXY_Prime_Table/static/js/2.909ff986.chunk.js.map",
-    "static/js/3.09494acd.chunk.js": "/LIXY_Prime_Table/static/js/3.09494acd.chunk.js",
-    "static/js/3.09494acd.chunk.js.map": "/LIXY_Prime_Table/static/js/3.09494acd.chunk.js.map",
+    "main.js": "/LIXY_Prime_Table/static/js/main.97810e63.chunk.js",
+    "main.js.map": "/LIXY_Prime_Table/static/js/main.97810e63.chunk.js.map",
+    "runtime-main.js": "/LIXY_Prime_Table/static/js/runtime-main.a81516e7.js",
+    "runtime-main.js.map": "/LIXY_Prime_Table/static/js/runtime-main.a81516e7.js.map",
+    "static/css/2.c72aeb51.chunk.css": "/LIXY_Prime_Table/static/css/2.c72aeb51.chunk.css",
+    "static/js/2.0bd6fb85.chunk.js": "/LIXY_Prime_Table/static/js/2.0bd6fb85.chunk.js",
+    "static/js/2.0bd6fb85.chunk.js.map": "/LIXY_Prime_Table/static/js/2.0bd6fb85.chunk.js.map",
+    "static/js/3.3789909d.chunk.js": "/LIXY_Prime_Table/static/js/3.3789909d.chunk.js",
+    "static/js/3.3789909d.chunk.js.map": "/LIXY_Prime_Table/static/js/3.3789909d.chunk.js.map",
     "index.html": "/LIXY_Prime_Table/index.html",
-    "static/css/2.71b65c2d.chunk.css.map": "/LIXY_Prime_Table/static/css/2.71b65c2d.chunk.css.map",
+    "static/css/2.c72aeb51.chunk.css.map": "/LIXY_Prime_Table/static/css/2.c72aeb51.chunk.css.map",
     "static/css/main.d7ffa779.chunk.css.map": "/LIXY_Prime_Table/static/css/main.d7ffa779.chunk.css.map",
-    "static/js/2.909ff986.chunk.js.LICENSE.txt": "/LIXY_Prime_Table/static/js/2.909ff986.chunk.js.LICENSE.txt"
+    "static/js/2.0bd6fb85.chunk.js.LICENSE.txt": "/LIXY_Prime_Table/static/js/2.0bd6fb85.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.96de0c46.js",
-    "static/css/2.71b65c2d.chunk.css",
-    "static/js/2.909ff986.chunk.js",
+    "static/js/runtime-main.a81516e7.js",
+    "static/css/2.c72aeb51.chunk.css",
+    "static/js/2.0bd6fb85.chunk.js",
     "static/css/main.d7ffa779.chunk.css",
-    "static/js/main.09ebcd44.chunk.js"
+    "static/js/main.97810e63.chunk.js"
   ]
 }
