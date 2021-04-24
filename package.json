@@ -2,7 +2,7 @@
   "name": "prime_table",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bori7.github.io/LIXY_Prime_Table",
+  "homepage": "https://bori7.github.io/LIXY_Prime_Table/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
