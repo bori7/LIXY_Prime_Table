@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import   {Primetable} from './component/prime_table'
 import './App.css';
 

@@ -5,15 +5,17 @@ import './prime_table.css';
 
 export const Primetable =  (props) => {
   
-    const [primes, setPrimes] = useState([]); 
-    const [no_primes, setNo_Primes] = useState(10);
+    const [primes, setPrimes] = useState([]);       //state variable to store prime numbers
+    const [no_primes, setNo_Primes] = useState(10); //state variable input of user
 
+    //Prime number checker
     const isPrime = num => {
         for(let i = 2, s = Math.sqrt(num); i <= s; i++)
             if(num % i === 0) return false; 
         return num > 1;
     }
-            
+     
+    //Prime number algorithm
     const display = (n) => {
         var arr = [2];
         for ( var i = 3; i < 1000; i+=2 ) {
@@ -25,16 +27,17 @@ export const Primetable =  (props) => {
                 break
             }
         }
-        // console.log(arr); 
+       
         setPrimes(arr)
     }
             
+    //Lifecyle hook to generate new prime numbers on input change
     useEffect(() => {
             display(no_primes);  
     }, [no_primes]);
 
 
-
+    //data input to the table 
     const dap = []
     primes.forEach( i  => {
         const da = {}
@@ -44,8 +47,8 @@ export const Primetable =  (props) => {
         dap.push(da)
     })
 
-    // console.log(dap)
-
+   
+    //code to generate index and headers for the table.
     const heads = []
     primes.forEach(i=>{
         heads.push({Header:`${i}`,
@@ -53,7 +56,7 @@ export const Primetable =  (props) => {
         Cell: row => (
             <div
               style={{
-                width: '100%',
+                width: '75%',
                 height: '100%',
                 backgroundColor: '#dadada',
                 borderRadius: '2px'
@@ -63,8 +66,8 @@ export const Primetable =  (props) => {
             </div>
           )})
     })
-    // console.log(heads)
-
+  
+    //column data for table
     const col = [   
         {
             Header: "",
@@ -81,6 +84,7 @@ export const Primetable =  (props) => {
             // {Header:'7',accessor: '7'},
             ...heads
         ]
+
 
     const handleChange = (event)=>{
             setNo_Primes(event.target.value)
