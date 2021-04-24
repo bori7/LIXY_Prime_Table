@@ -1,7 +1,13 @@
 import React, {useEffect, useState} from 'react';
 import ReactTable from 'react-table-v6'
+
+import withFixedColumns from "react-table-hoc-fixed-columns";
+import "react-table-hoc-fixed-columns/lib/styles.css";
+
 import 'react-table-v6/react-table.css'
 import './prime_table.css';
+
+const ReactTableFixedColumns = withFixedColumns(ReactTable);
 
 export const Primetable =  (props) => {
   
@@ -71,6 +77,7 @@ export const Primetable =  (props) => {
     const col = [   
         {
             Header: "",
+            fixed: "left",
             id: "row",
             maxWidth: 50,
             filterable: false,
@@ -103,9 +110,15 @@ return (
 
         <div className='card-list'>
 
-            <ReactTable 
+            <ReactTableFixedColumns
                 data={dap}
                 columns={col}
+
+                defaultPageSize={100}
+                style={{
+                  height: "700px" // This will force the table body to overflow and scroll, since there is not enough room
+                }}
+                className="-striped -highlight"
             />
         </div>
     </div>
