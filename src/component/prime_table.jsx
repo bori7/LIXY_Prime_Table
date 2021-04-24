@@ -48,7 +48,20 @@ export const Primetable =  (props) => {
 
     const heads = []
     primes.forEach(i=>{
-        heads.push({Header:`${i}`,accessor:`${i}`})
+        heads.push({Header:`${i}`,
+        accessor:`${i}`,
+        Cell: row => (
+            <div
+              style={{
+                width: '100%',
+                height: '100%',
+                backgroundColor: '#dadada',
+                borderRadius: '2px'
+              }}
+            >
+            {row.value}
+            </div>
+          )})
     })
     // console.log(heads)
 
@@ -59,7 +72,7 @@ export const Primetable =  (props) => {
             maxWidth: 50,
             filterable: false,
             Cell: (row) => {
-                return <div>{primes[row.index]}</div>;
+                return <div >{primes[row.index]}</div>;
             }
             },
             // {Header:'2',accessor: '2'},
@@ -79,7 +92,7 @@ return (
            <input
                 className='search-box'
                 type='number'
-                placeholder='number of prime numbers'
+                placeholder='number of primes'
                 onChange={handleChange}
                 defaultValue={10}
             />
